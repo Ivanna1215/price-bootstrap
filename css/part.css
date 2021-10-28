@@ -1,0 +1,88 @@
+.container {
+  background-color: #9789fa;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; }
+  .container .element {
+    width: 250px;
+    height: 480px;
+    margin: 20px auto;
+    background-color: #e9d5d8;
+    position: relative; }
+    .container .element .zone-1 {
+      height: 25%;
+      background-color: #e9d5d8; }
+      .container .element .zone-1 .wrap {
+        width: 100px;
+        height: 30px; }
+        .container .element .zone-1 .wrap .p {
+          display: none; }
+        .container .element .zone-1 .wrap .popular {
+          display: none; }
+      .container .element .zone-1 .header {
+        display: flex;
+        width: 80px;
+        height: 40px;
+        text-align: center;
+        margin: 0 auto; }
+        .container .element .zone-1 .header .part-1 {
+          font-size: 15px;
+          vertical-align: top;
+          padding-top: 5px;
+          vertical-align: super; }
+        .container .element .zone-1 .header .part-2 {
+          font-size: 35px; }
+        .container .element .zone-1 .header .part-3 {
+          font-size: 15px;
+          margin-top: 20px;
+          vertical-align: bottom; }
+      .container .element .zone-1 .name {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: brown;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      .container .element .zone-1 .name:hover {
+        color: blue; }
+    .container .element .zone-2 {
+      width: 250px;
+      height: 50%;
+      background-color: #f5f4f4;
+      border-top-left-radius: 160px;
+      border-top-right-radius: 160px;
+      border: 2px solid red;
+      margin-left: 0; }
+      .container .element .zone-2 .picture {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center; }
+        .container .element .zone-2 .picture img {
+          width: 30px;
+          height: 30px;
+          margin-top: 15px; }
+      .container .element .zone-2 .text {
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: center; }
+    .container .element .zone-3 {
+      background-color: #e9d5d8;
+      height: 25%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .container .element .zone-3 .basic {
+        width: 150px;
+        height: 36px;
+        text-align: center;
+        border: none;
+        border-radius: 81px;
+        background-color: darkcyan;
+        position: absolute;
+        right: 50%;
+        bottom: 0;
+        transform: translate(50%, 50%); }
+      .container .element .zone-3 .work-5 {
+        display: none; }
